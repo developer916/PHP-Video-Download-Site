@@ -1,0 +1,538 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./bebas/BebasNeue Thin.otf');
+}
+.fadeInUp{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+-webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.interactive-slider-v2{
+    padding: 70px 0px!important;
+}
+.interactive-slider-v2 h1{
+    font-family: myFirstFont;
+    letter-spacing: 10px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+-webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.change-padding{
+    padding: 10px 0px !important;
+}
+.headerDiv h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-family: myFirstFont;
+    letter-spacing: 10px;
+}
+.headerDiv{
+    display: inline-block;
+}
+.headerDiv h1 a{
+    color: #fff!important;
+}
+.headerDiv h1 a:hover{
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.headline-center h2:after {
+    background: #f7f7f7;
+}
+.social-grid {
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+/*************social grid footer start*****************/
+.social-grid-footer{
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.social-grid-footer li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 6px 6px;
+}
+.social-item-footer {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    cursor: default;
+}
+.social-info-wrap-footer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.social-info-footer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.social-grid-footer li a {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+.social-grid-footer li a img{
+    width: 40px;
+    border-radius: 50%!important;
+}
+
+/*************social grid footer end*****************/
+.social-grid li {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 6px 6px;
+}
+.social-item {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    cursor: default;
+}
+.social-info-wrap {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.social-info {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50em!important;
+    -moz-border-radius: 50em!important;
+    border-radius: 50em!important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.social-info > div , .social-info-footer > div{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%!important;
+    background-position: center center;
+    border: 1px solid #999;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.social-grid li a {
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+.social-info .social-info-back {
+    -webkit-transform: rotate3d(0,1,0,180deg);
+    -moz-transform: rotate3d(0,1,0,180deg);
+    -o-transform: rotate3d(0,1,0,180deg);
+    -ms-transform: rotate3d(0,1,0,180deg);
+    transform: rotate3d(0,1,0,180deg);
+    margin-left: -2px;
+}
+.titleRemove{
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 50%!important;
+}
+.fa-facebook {
+    padding:4px;
+    font-size: 20px!important;
+    color: white;
+}
+.social-facebook{
+    background-color: #3b5998;
+    border: 1px solid #3b8998!important;
+}
+.social-twitter{
+    background-color: #48c4d2;
+    border: 1px solid #48c4d2!important;
+}
+.fa-twitter {
+    padding:4px;
+    font-size: 20px!important;
+    color: white;
+}
+.fa-google-plus{
+    padding:4px;
+    font-size: 20px!important;
+    color: white;
+}
+.social-google {
+    background-color: #D02840;
+    border: 1px solid #D02840!important;
+}
+.social{
+    position:fixed;
+    z-index:999;
+    left:5px;
+    top:12px;
+    display: inline-block;
+}
+.header-change{
+    background-color: #ee352a!important;
+}
+#cd-lateral-nav a {
+    font-size: 20px!important;
+}
+#homeContent{
+    min-height: 350px;
+}
+#about-us-wrapper{
+    background: #f7f7f7 !important;
+}
+#contact-us-wrapper{
+    background: url(../img/patterns/16.png) repeat;
+}
+/*#payNowQuoteDiv{
+    font-family: myFirstFont;
+}*/
+#myModalLabel{
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #000!important;
+}
+#modalCloseButton{
+    color:#000!important;
+    opacity: 1;
+}
+.modalChangeContent {
+    border-radius: 10px 10px!important;
+    box-shadow: 10px 10px 10px 10px;
+}
+.modalChangeHeader {
+    background-image: -webkit-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+    border-radius: 10px 10px 0px 0px !important;
+}
+.video-result {
+    font-size: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.video-result-top, .video-result-bottom {
+    width: 100%;
+    display: block;
+}
+.video-result-thumbnail {
+    width: 196px;
+    margin-right: 15px;
+}
+.vrd-duration {
+    font-size: 11px;
+    padding: 2px;
+    font-weight: 600;
+    background-color: #000;
+    opacity: 0.7;
+    display: inline;
+    position: relative;
+    top: -22px;
+    left: 4px;
+    color: #fff;
+}
+.video-result-details {
+    max-width: 350px;
+    overflow: hidden;
+}
+.vrd-title, .vrd-part {
+    color: #000;
+}
+.vrd-title {
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 350px;
+}
+.vrd-description {
+    color: #bababa;
+}
+.video-result-thumbnail img {
+    width: 196px;
+    height: 120px;
+}
+.video-result-thumbnail, .video-result-details {
+    height: 120px;
+    float: left;
+}
+.video-result {
+    font-size: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+/*****notification style ******/
+
+.site-notifications {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35px;
+    margin-top: 0px;
+
+}
+.site-notification {
+    position: relative;
+    color: #fff;
+    border: 1px solid #ee352a;
+    border-radius: 4px!important;
+    height: 30px;
+}
+.site-notification-body {
+    white-space: nowrap;
+    overflow: hidden;
+    height: 29px;
+    color: #ee352a;
+    width: 98%;
+    max-width: 420px;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    font-family: my;
+}
+.btn-close-notification {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    color: #ee352a;
+    font-size: 13px;
+}
+/*.site-notification:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*bottom: -14px;*/
+    /*left: 48px;*/
+    /*border-width: 14px 0 0 14px;*/
+    /*border-style: solid;*/
+    /*border-color: #ee352a transparent;*/
+    /*display: block;*/
+    /*width: 0;*/
+/*}*/
+.buttons{
+    width: 100%;
+    font-size: 20px!important;
+    background: #ee352a;
+    letter-spacing: 1px;
+    border-radius: 3px!important;
+    color: white!important;
+}
+.download-video{
+    width: 48%;
+    font-size: 20px!important;
+    float: left;
+    background-color: #e74c3c!important;
+    letter-spacing: 1px;
+    font-weight: 900;
+    border-radius: 3px!important;
+    color: white!important;
+}
+.download-mp3{
+    width: 48%;
+    font-size: 20px!important;
+    float: right;
+    background-color: #e74c3c!important;
+    letter-spacing: 1px;
+    font-weight: 900;
+    border-radius: 3px!important;
+    color: white!important;
+}
+.download-vimeo{
+    width: 100%;
+    font-size: 20px!important;
+    background-color: #e74c3c!important;
+    letter-spacing: 1px;
+    border-radius: 3px!important;
+    color: white!important;
+}
+#url{
+    border-radius: 4px!important;
+}
+.ui-menu .ui-menu-item {
+    padding: 5px 5px 5px 15px!important;
+    font-size: 18px!important;
+    font-family: initial!important;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background-color: #EEEEEE!important;
+    border: 0px!important;
+    font-family: initial!important;
+}
+.ui-widget-content {
+    border: 1px solid #ccc!important;
+}
+#spin{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0,.4);
+    z-index: 100;
+    /* display: none; */
+    top: 0;
+    left: 0;
+}
+.spinner-border{
+    border-radius: 10px 0px !important;
+}
+.spinner-border1{
+    border-radius: 10px 10px !important;
+}
+#dangerAlertText{
+    color: #ee352a;
+}
+#alertDiv{
+    border: 1px solid #ee352a;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 4px!important;
+    background-color: white;
+    display: none;
+}
+#alertDiv .close{
+
+}
+#cd-menu-trigger{
+    margin-top: -5px;
+}
+
+.helpTitle{
+    font-size: 20px;
+}
+.helpTitleLower{
+    font-size: 15px;
+}
+
+.flat-bg-block-v1{
+    padding:0px 0px !important;
+}
+@media only screen and (max-width: 768px) {
+    #cd-menu-trigger {
+        /*top: 10px!important;*/
+        margin-top: -5px;
+    }
+    .social{
+        top:0px;
+    }
+    .interactive-slider-v2{
+        padding: 10px 0px!important;
+    }
+    #homeStar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .change-padding{
+        padding: 40px 0px !important;
+    }
+    .headerDiv{
+        margin-top: 30px;
+    }
+    .contactUsDivH2 {
+        font-size: 2.75em!important;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #download-video {
+        font-size: 15px!important;
+        padding: 10px 13px!important;
+    }
+    #download-mp3{
+        font-size: 15px!important;
+        padding: 10px 13px!important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #download-video {
+        font-size: 10px!important;
+        padding: 14px 10px!important;
+    }
+    #download-mp3{
+        font-size: 10px!important;
+        padding: 14px 10px!important;
+    }
+}

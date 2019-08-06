@@ -1,0 +1,59 @@
+<?php
+$language_home = "Home";
+$language_about = "About";
+$language_help = "Help";
+$language_trick = "Trick";
+$language_contact_us = "Contact Us";
+$language_welcome_to_wouptube = "Welcome to Wouptube";
+$language_youtube_downloader_youtube_to_mp3_converter = "Youtube Downloader & Youtube to MP3 converter.";
+$language_also_works_with_vimeo_dailymotion = "also works with Vimeo, Dailymotion";
+$language_go= "Go";
+$language_download_video= "Download Video";
+$language_download_mp3 = "Download Mp3";
+$language_download= "Download";
+$language_wouptube = "Wouptube";
+$language_is_the_world_simplest_youtube_dowmloader = "is the world's simplest Youtube downloader!";
+$language_about_first = "Wouptube is the easiest way to download Youtube videos to your computer.";
+$language_about_second = "Why is Wouptube better than all the other Youtube downloaders?";
+$language_about_third="It is really fast.";
+$language_about_fourth="It is very simple: You just have to paste the Video URL and press the Download button";
+$language_about_fifth="Wouptube is an online youtube downloader which means you don't have to install any software on your computer and run the risk of computer viruses, malware and adware.";
+$language_about_sixth="It also allows you to download the MP3 of the Youtube video.";
+$language_about_seventh="It allows you to download the High Quality versions of Videos and MP3s.";
+$language_about_eighth=" And the best part? It's Free!";
+$language_contact_message_successfully= "Your message has been sent successfully.";
+$language_name = "Name";
+$language_email= "Email";
+$language_message = "Message";
+$language_send_message = "Send Message";
+$language_message_was_successfully_sent= "Your message was successfully sent!";
+$language_you_have_to_insert_correct="You have to insert correct information for contact form.";
+$language_how_to_download_youtube_videos_using = "How to download Youtube Videos using ";
+$language_wouptube_is_the_easiest_way_to = "Wouptube is the easiest way to download a Youtube Video to your computer. You can download either the full video or just the audio track (MP3).";
+$language_here_is_how_to_download="Here is how to download a video from Youtube:";
+$language_go_to_youtube_and_find ="Go to Youtube, and find the video you want to download.";
+$language_click_on_the_browser="Click on the browser's Address Bar (found at the top) and select all of its contents. This is the Video's URL.";
+$language_copy_video_url="Copy the Video's URL.";
+$language_in_order_to_copy="In order to copy, press ctrl + C if you are a PC user";
+$language_or_press_command="or press command + C if you are a Mac user";
+$language_go_to = " Go to ";
+$language_the_world_simplest_youtube_downloader_which_be="the world's simplest Youtube downloader which can be found at: http://www.wouptube.com and click on the field that says";
+$language_past_video_url="Paste Video URL here ...";
+$language_paste_into_that_field_the="Paste into that field the URL you copied earlier by pressing:";
+$language_ctrlV = "ctrl + V if you are on a PC";
+$language_or_commandV = "or command + V if you are on a Mac";
+$language_now_just_press_the = 'Now, just press the "Download Video" button and you are done!';
+$language_or_if_you_want_to_download_just_a_audio ='OR, if you want to download just the audio track (MP3) of the video press the "Download MP3" button:';
+$language_now_you_know_how_to_download = "Now you know how to download a video from Youtube!";
+$language_could_not_download ="Could not download from this url.";
+$language_no_video_id_passed_in="No video id passed in";
+$language_invalid_url = "Invalid url";
+$language_no_video_id_passed_in ="No video id passed in";
+$language_no_encoded_format_stream_found = "No encoded format stream found.";
+$language_here_is_what_we_got = "Here is what we got from YouTube:";
+$language_no_format_stream_map_found = "No format stream map found - was the video id correct?";
+$language_could_not_download_from_this_url= "Could not download from this url.";
+
+
+
+?>
